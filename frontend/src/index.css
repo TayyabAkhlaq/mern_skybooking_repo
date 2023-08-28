@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+.buttonflight
+{
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.flightlayout{
+  border-radius: 20px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 30px;
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 19, 53);
+}
+.hotellayout
+{
+  border-radius: 20px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 30px;
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 19, 53);
+
+}
+
+/* Carousal.css */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 24px; /* Adjust the arrow size */
+}
+/* src/components/Contact.css */
+/* src/components/Contact.css */
+.maindiv
+{
+  height: 650px;
+  width: 100%;
+  
+  background-color: #ccc;
+  
+  border: 4px solid white;
+}
+.contact-container {
+ /* margin-top: 20px; ; */
+  height:600px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  /* border-radius: 10px; */
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.about-section {
+  /* padding: 50px; */
+  /* text-align: center; */
+  
+  background-color: #5f7095;
+  color: white;
+}
+.about 
+{
+  /* display: flex; */
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex: 1; /* Let the columns grow and shrink equally within the row */
+  margin: 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%; /* Use 100% width for responsive layout */
+  max-width: 500px; /* Limit the maximum width for larger screens */
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  color: white;
+  background-color: #5f7095;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #5772a5;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #f6dddd;
+}
+
+
+/* src/components/Blog.css */
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-post {
+  flex: 1;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.blog-post a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+.topnav-right
+{
+  float: right;
+}
